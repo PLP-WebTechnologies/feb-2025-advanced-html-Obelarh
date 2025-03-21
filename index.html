@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lists and Forms</title>
+    <link rel="stylesheet" href="styles.css"> <!-- External CSS file for styling -->
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to Our Website.</h1>
+    </header>
+
+    <!-- Ordered List -->
+    <section>
+        <ol type="I">
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JAVASCRIPT</li>
+            <li>PYTHON</li>
+        </ol>
+    </section>
+    <!-- End of list section -->
+
+    <br> <br>
+    <!-- External Image -->
+    <section>
+        <h2>Featured Image</h2>
+        <img src="https://images.pexels.com/photos/943096/pexels-photo-943096.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="programmer's laptop" width="600px"> 
+    </section>
+
+    <br> <br>
+
+
+    <!-- Table Section -->
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Obela Cletus</td>
+                <td>13 Olukowi Ijaye</td>
+                <td>+2349064027675</td>
+                <td>obelasunday@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Sunday samuel</td>
+                <td>39 olumo alde</td>
+                <td>+2349068753219</td>
+                <td>sundaysamuel@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Shedrack Samuel</td>
+                <td>58 egba street</td>
+                <td>+2347052348619</td>
+                <td>samuelshedrack@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Paul Favour</td>
+                <td>13 Olukowi Ijaye</td>
+                <td>+2349078932546</td>
+                <td>fpaul12@gmail.com</td>
+            </tr>
+            <tr>
+                <td>David Paul</td>
+                <td>113 ogunsolu street</td>
+                <td>+2349024875963</td>
+                <td>pauldave112@gmail.com</td>
+            </tr>
+        </tbody>
+    </table>
+    
+
+    <!-- Registration Form -->
+    <section>
+        <h2>Registration Form</h2>
+        <form action="#" method="post">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your full name" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Create a password" required><br><br>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required><br><br>
+
+            <!-- Dropdown -->
+            <label for="country">Country:</label>
+            <select id="country" name="country" required>
+                <option value="">Select your country</option>
+                <option value="USA">USA</option>
+                <option value="Canada">Canada</option>
+                <option value="UK">UK</option>
+                <option value="Australia">Australia</option>
+            </select><br><br>
+
+            <!-- Radio Buttons -->
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label><br><br>
+
+            <!-- Checkboxes -->
+            <label>Interests:</label><br>
+            <input type="checkbox" id="sports" name="interests" value="sports">
+            <label for="sports">Sports</label>
+            <input type="checkbox" id="music" name="interests" value="music">
+            <label for="music">Music</label>
+            <input type="checkbox" id="travel" name="interests" value="travel">
+            <label for="travel">Travel</label><br><br>
+
+            <!-- Submit Button -->
+            <button type="submit">Register</button>
+        </form>
+    </section>
+
+    
+   
+</body>
+</html>
